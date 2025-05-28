@@ -2,8 +2,8 @@
 
 > **A cutting-edge live wallpaper portfolio showcasing our innovative development team**
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-blue?style=for-the-badge)](https://your-demo-link.com)
-[![GitHub](https://img.shields.io/badge/⭐_Star_on-GitHub-black?style=for-the-badge)](https://github.com/yourusername/ID-BRAINS-Portfolio)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-blue?style=for-the-badge)](https://gasse4.github.io/Portofolio/)
+[![GitHub](https://img.shields.io/badge/⭐_Star_on-GitHub-black?style=for-the-badge)](https://github.com/gasse4/Portofolio)
 
 ## ✨ Features
 
@@ -36,7 +36,7 @@
 | **Mostafa Karam** | Mobile Developer | React Native, Flutter |
 | **Nader Mekky** | DevOps Engineer | Docker, AWS, Jenkins |
 | **Abdelrahman Mosaad** | Networks Engineer | Cisco, Network Security, TCP/IP |
-| **Amr Medhat** | Cloud Architect | Google Cloud, Azure, Kubernetes |
+| **Amr Medhat** | Cloud Engineer | Google Cloud, Azure, Kubernetes |
 
 ## 🚀 Quick Start
 
@@ -48,8 +48,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ID-BRAINS-Portfolio.git
-   cd ID-BRAINS-Portfolio
+   git clone https://github.com/gasse4/Portofolio.git
+   cd Portofolio
    ```
 
 2. **Open locally**
@@ -72,16 +72,21 @@
 ## 📁 Project Structure
 
 ```
-ID-BRAINS-Portfolio/
+Portofolio/
 ├── base.html              # Main portfolio page
+├── index.html             # GitHub Pages entry point
 ├── style.css              # Complete styling with animations
 ├── theme_toggle.js         # Theme switching & wallpaper logic
 ├── scroll_animation.js     # Smooth scrolling & fade animations
-├── IMGS/                   # Team member photos
-│   ├── khaled.jpg
-│   ├── youssef.jpg
-│   └── Gasser.jpg
-└── README.md               # Project documentation
+├── .github/workflows/      # GitHub Actions deployment
+│   └── deploy.yml
+├── IMGS/                   # Team member photos (placeholder)
+├── README.md               # Project documentation
+├── LICENSE                 # MIT License
+├── CONTRIBUTING.md         # Contribution guidelines
+├── CHANGELOG.md            # Version history
+├── SECURITY.md             # Security policy
+└── .gitignore              # Git ignore rules
 ```
 
 ## 🔧 Technical Highlights
@@ -225,9 +230,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **ID BRAINS Development Team**
-- 📧 Email: contact@idbrains.dev
-- 🌐 Website: [idbrains.dev](https://idbrains.dev)
-- 💼 LinkedIn: [ID BRAINS](https://linkedin.com/company/idbrains)
+
+- 🌐 Live Demo: [gasse4.github.io/Portofolio](https://gasse4.github.io/Portofolio/)
+- 📁 Repository: [github.com/gasse4/Portofolio](https://github.com/gasse4/Portofolio)
+- 👥 Team: 7 passionate developers creating amazing digital experiences
 
 ---
 
