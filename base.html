@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="ID BRAINS - Meet our innovative development team creating amazing digital experiences."/>
+    <link rel="stylesheet" href="./style.css" />
+    <title>ID BRAINS - Portfolio</title>
+</head>
+<body>
+    <!-- Live Wallpaper Background -->
+    <div class="live-wallpaper">
+        <div class="particle-layer" id="particleLayer"></div>
+
+        <!-- Code Blocks -->
+        <div class="code-blocks">
+            <div class="code-block js-block">
+                <span class="code-line">const dev = { skills: ['JS', 'Node'] };</span>
+            </div>
+            <div class="code-block python-block">
+                <span class="code-line">def code(): return True</span>
+            </div>
+            <div class="code-block react-block">
+                <span class="code-line"><Component><h1>React</h1></Component></span>
+            </div>
+            <div class="code-block css-block">
+                <span class="code-line">.class { animation: float 3s; }</span>
+            </div>
+            <div class="code-block sql-block">
+                <span class="code-line">SELECT * FROM developers;</span>
+            </div>
+            <div class="code-block docker-block">
+                <span class="code-line">FROM node:latest</span>
+            </div>
+        </div>
+
+        <!-- Canvas for Neural Network Animation -->
+        <canvas id="neuralCanvas" class="neural-network"></canvas>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <a href="#home" class="logo-nav">ID BRAINS</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle Dark/Light Mode">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator"></div>
+
+    <!-- Main Content -->
+    <main class="main" role="main">
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h1>Welcome to <span>ID BRAINS</span></h1>
+                <p>We build cutting-edge software solutions with passion and innovation.</p>
+                <a href="#team" class="btn-primary">Meet the Team</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section fade-in">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>ID BRAINS is a group of seven passionate developers who collaborate to create modern, scalable, and future-ready applications. Our mission is to deliver excellence through innovation and teamwork.</p>
+                <div class="features">
+                    <div class="feature-card fade-in">
+                        <h3>Modern Tech Stack</h3>
+                        <p>We use the latest technologies to bring your ideas to life.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <h3>Creative Solutions</h3>
+                        <p>Every project is approached with creativity and problem-solving in mind.</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <h3>Collaborative Approach</h3>
+                        <p>Our team works together to ensure every product is top-notch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="team-section fade-in">
+            <div class="container">
+                <h2>Meet Our Team</h2>
+                <p>Seven passionate developers working together to create amazing digital experiences.</p>
+                <div class="developers-grid">
+                    <div class="dev-card fade-in" data-dev="dev1">
+                        <div class="dev-image">
+                            <img src="#" alt="Khaled Mahmoud">
+                            <div class="overlay">
+                                <span>View Portfolio</span>
+                            </div>
+                        </div>
+                        <div class="dev-info">
+                            <h3>Khaled Mahmoud</h3>
+                            <p style="color: rgb(243, 159, 90);">Team leader</p>
+                            <p>AI Engineer & Backend Developer</p>
+                            <div class="skills">
+                                <span class="skill">TensorFlow</span>
+                                <span class="skill">Django</span>
+                                <span class="skill">PyTorch</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dev-card fade-in" data-dev="dev2">
+                        <div class="dev-image">
+                            <img src="#" alt="Youssef">
+                            <div class="overlay">
+                                <span>View Portfolio</span>
+                            </div>
+                        </div>
+                        <div class="dev-info">
+                            <h3>Gasser mohamed</h3>
+                            <p>Frontend Specialist</p>
+                            <div class="skills">
+                                <span class="skill">React</span>
+                                <span class="skill">CSS3</span>
+                                <span class="skill">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dev-card fade-in" data-dev="dev3">
+                        <div class="dev-image">
+                            <img src="#" alt="Gasser">
+                            <div class="overlay">
+                                <span>View Portfolio</span>
+                            </div>
+                        </div>
+                        <div class="dev-info">
+                            <h3>Yousser El Eskandarany</h3>
+                            <p>Database Engineer</p>
+                            <div class="skills">
+                                <span class="skill">SQlite</span>
+                                <span class="skill">MongoDB</span>
+                                <span class="skill">PostgreSQl</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dev-card fade-in" data-dev="dev4">
+                        <div class="dev-image">
+                            <img src="https://via.placeholder.com/200x200/F59E0B/FFFFFF?text=DEV+4" alt="Developer 4">
+                            <div class="overlay">
+                                <span>View Portfolio</span>
+                            </div>
+                        </div>
+                        <div class="dev-info">
+                            <h3>Mostafa karam</h3>
+                            <p>Mobile Developer</p>
+                            <div class="skills">
+                                <span class="skill">React Native</span>
+                                <span class="skill">Flutter</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dev-card fade-in" data-dev="dev5">
+                        <div class="dev-image">
+                            <img src="https://via.placeholder.com/200x200/8B5CF6/FFFFFF?text=DEV+5" alt="Developer 5">
+                            <div class="overlay">
+                                <span>View Portfolio</span>
+                            </div>
+                        </div>
+                        <div class="dev-info">
+                            <h3>Nader mekky</h3>
+                            <p>DevOps Engineer</p>
+                            <div class="skills">
+                                <span class="skill">Docker</span>
+                                <span class="skill">AWS</span>
+                                <span class="skill">Jenkins</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dev-card fade-in" data-dev="dev6">
+                        <div class="dev-image">
+                            <img src="https://via.placeholder.com/200x200/EF4444/FFFFFF?text=DEV+6" alt="Developer 6">
+                            <div class="overlay">
+                                <span>View Portfolio</span>
+                            </div>
+                        </div>
+                        <div class="dev-info">
+                            <h3>Abdelrahman Mosaad</h3>
+                            <p>Networks Engineer</p>
+                            <div class="skills">
+                                <span class="skill">Cisco</span>
+                                <span class="skill">Network Security</span>
+                                <span class="skill">TCP/IP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dev-card fade-in" data-dev="dev7">
+                        <div class="dev-image">
+                            <img src="https://via.placeholder.com/200x200/10B981/FFFFFF?text=DEV+7" alt="Developer 7">
+                            <div class="overlay">
+                                <span>View Portfolio</span>
+                            </div>
+                        </div>
+                        <div class="dev-info">
+                            <h3>Amr medhat</h3>
+                            <p>Cloud Architect</p>
+                            <div class="skills">
+                                <span class="skill">Google Cloud</span>
+                                <span class="skill">Azure</span>
+                                <span class="skill">Kubernetes</span>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section fade-in">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Have a project or need help with something? Feel free to reach out!</p>
+                <form class="contact-form fade-in">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="./theme_toggle.js"></script>
+    <script src="./scroll_animation.js"></script>
+</body>
+</html>
